@@ -72,11 +72,12 @@ function Header() {
         <li>
           <Link to="/about">about</Link>
         </li>
+
         <li>
           <Link to="/blog">{isAdmin ? "Curd" : "News & Events"}</Link>
         </li>
         <li>
-          <Link to="/contact">Lat's Talk</Link>
+          <Link to="/contact">Contact Us</Link>
         </li>
 
         {isAdmin && adminRouter()}

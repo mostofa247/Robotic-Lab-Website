@@ -173,6 +173,7 @@ function About() {
           </div>
         </article>
       </section>
+
       <Footer />
     </>
   );

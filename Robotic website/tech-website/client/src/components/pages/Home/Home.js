@@ -43,7 +43,7 @@ function Home() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum
               officiis quis omm officiis quis omnis, cum culpa nisi!
             </p>
-            <a href="..." class="btn">
+            <a href="/blog" class="btn">
               Read More
             </a>
           </div>
@@ -57,7 +57,7 @@ function Home() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum
               officiis quis omm officiis quis omnis, cum culpa nisi!
             </p>
-            <a href="..." class="btn">
+            <a href="/blog" class="btn">
               Read More
             </a>
           </div>
@@ -83,7 +83,7 @@ function Home() {
                 lobortis porta. Vestibulum ultrices iaculis enim imperdiet
                 egestas.
               </p>
-              <a href="..." class="read-more">
+              <a href="/blog" class="read-more">
                 Read more <span class="sr-only">about this is some title</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +117,7 @@ function Home() {
                 lobortis porta. Vestibulum ultrices iaculis enim imperdiet
                 egestas.
               </p>
-              <a href="..." class="read-more">
+              <a href="/blog" class="read-more">
                 Read more <span class="sr-only">about this is some title</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -151,7 +151,7 @@ function Home() {
                 lobortis porta. Vestibulum ultrices iaculis enim imperdiet
                 egestas.
               </p>
-              <a href="..." class="read-more">
+              <a href="/blog" class="read-more">
                 Read more <span class="sr-only">about this is some title</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -182,6 +182,7 @@ function Home() {
               academic centre for multi-disciplinary robotics research in the
               UK.
             </p>
+
             <p>
               It is a collaborative partnership between the University of the
               West of England (UWE Bristol) and the University of Bristol, and

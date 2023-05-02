@@ -66,6 +66,7 @@ function Products() {
           </p>
         </div>
       </div>
+
       <Filters />
 
       {isAdmin && (
@@ -89,6 +90,129 @@ function Products() {
         })}
       </div>
       <LoadMore />
+
+      <div>
+        <div className="event-title">
+          <h2>Our Events</h2>
+        </div>
+        <section class="articles">
+          <article>
+            <div class="article-wrapper">
+              <figure>
+                <img
+                  src="https://images.pexels.com/photos/6325984/pexels-photo-6325984.jpeg?auto=compress&cs=tinysrgb&w=860&h=550&dpr=1"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </article>
+          <article>
+            <div class="article-wrapper">
+              <figure>
+                <img
+                  src="https://th.bing.com/th/id/R.7f82bfaf066be9c6d5861435b1580ff4?rik=g%2btbZzkI7nbBfQ&pid=ImgRaw&r=0"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </article>
+          <article>
+            <div class="article-wrapper">
+              <figure>
+                <img
+                  src="https://th.bing.com/th/id/R.2bdafa955e591240037f60eb23052aed?rik=O6KcgABRiXLEeA&pid=ImgRaw&r=0"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </article>
+          <article>
+            <div class="article-wrapper">
+              <figure>
+                <img
+                  src="https://th.bing.com/th/id/OIP.99tWPkB1D7EKxwxveYZeRgHaE7?pid=ImgDet&rs=1"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </article>
+          <article>
+            <div class="article-wrapper">
+              <figure>
+                <img
+                  src="https://th.bing.com/th/id/OIP.YznZRzoaqBaytuttwDAeuAHaE8?pid=ImgDet&w=1296&h=864&rs=1"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </article>
+          <article>
+            <div class="article-wrapper">
+              <figure>
+                <img
+                  src="https://th.bing.com/th/id/OIP.tAvR0gUHikDPStsDHvpZaAHaE8?pid=ImgDet&rs=1"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </article>
+        </section>
+      </div>
+
+      <div className="container-home" id="Event-content"></div>
+
+      <section class="about">
+        <div className="study-title">
+          <h2>Study at BRL</h2>
+        </div>
+        <div class="home-row">
+          <div class="about-middle">
+            <h2>PhD in Robotics</h2>
+            <br />
+            <p>
+              The PHD in Robotics is designed to provide you with a wide
+              understanding of advanced robotics and automation systems with
+              broad applications. It is sufficiently general to give you an
+              excellent background for a professional career in the robotics
+              sector whilst also providing the specialism necessary for a career
+              as a researcher.
+            </p>
+
+            <p>
+              The programme is jointly delivered by the University of Bristol
+              and the University of the West of England, and draws on the
+              combined expertise of both universities and Bristol Robotics
+              Laboratory - a world-leading facility for robotics research.
+            </p>
+          </div>
+
+          <div class="about-left">
+            <img
+              className="image2-home"
+              src="https://lirp.cdn-website.com/4eb3016f/dms3rep/multi/opt/BRL%2Bat%2Bnight-325w.jpg"
+              alt=""
+            />
+          </div>
+          <div class="about-right">
+            <h2>MSc in Robotics</h2>
+            <br />
+            <p>
+              The MSC in Robotics is designed to provide you with a wide
+              understanding of advanced robotics and automation systems with
+              broad applications. It is sufficiently general to give you an
+              excellent background for a professional career in the robotics
+              sector whilst also providing the specialism necessary for a career
+              as a researcher.
+            </p>
+            <p>
+              The programme is jointly delivered by the University of Bristol
+              and the University of the West of England, and draws on the
+              combined expertise of both universities and Bristol Robotics
+              Laboratory - a world-leading facility for robotics research.
+            </p>
+          </div>
+        </div>
+      </section>
       <Footer />
     </>
   );
