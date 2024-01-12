@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../footer/footer";
+import Demo from "./Demo";
 
 function About() {
   return (
@@ -173,6 +174,49 @@ function About() {
           </div>
         </article>
       </section>
+
+      <section class="about">
+        <div class="home-row">
+          <div class="about-left">
+            <h2>Robotic movement with our responsibility</h2>
+            <br />
+            <img
+              id="image1-home"
+              src="https://th.bing.com/th/id/R.8bd32283ba27d87b566e64c8b9167073?rik=Bi2TGyCyZQNqLg&riu=http%3a%2f%2fimej.wfu.edu%2farticles%2f2002%2f2%2f03%2fimages%2ffig1.jpg&ehk=dLnZdFIZtODmVwtzazFgWGIgaUxyhv9yt8gESw0WUA0%3d&risl=&pid=ImgRaw&r=0"
+              alt=""
+            />
+          </div>
+          <div class="about-middle">
+            <h2>Simulator History</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum
+              officiis quis omnis, cum culpa nisi!
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum
+              officiis quis omm officiis quis omnis, cum culpa nisi!
+            </p>
+            <a href="/blog" class="btn">
+              Read More
+            </a>
+          </div>
+          <div class="about-right">
+            <h2>Run Simulator with Vision & Mission</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum
+              officiis quis omnis, cum culpa nisi!
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum
+              officiis quis omm officiis quis omnis, cum culpa nisi!
+            </p>
+            <a target="_blank" href="http://localhost:3001/" class="btn">
+              Run Simulator
+            </a>
+          </div>
+        </div>
+      </section>
+      <br></br>
 
       <Footer />
     </>

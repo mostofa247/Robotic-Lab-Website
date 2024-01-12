@@ -142,3 +142,34 @@ section {
     background-size: cover;
     background-attachment: fixed;
   }
+
+
+  .demo-text{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .demo-code{
+    padding-left: 32%;
+  }
+
+  #shakes{
+    height: 150px;
+    width: 50%;
+  }
+
+  #button-shakes{
+  background-color: #43828a;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  }
